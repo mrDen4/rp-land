@@ -1,0 +1,57 @@
+.bonus {
+    background: url('../images/bonus-bg.png') center;
+    background-size: cover;
+    width: 100vw;
+    height: 790px;
+
+    .bonus__container {
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+
+    .bonus__title {
+        font-size: 45px;
+        color: #ffffff;
+    }
+
+    .bonus__list {
+        display: flex;
+        justify-content: space-around;
+        color: #ffffff;
+        width: 100%;
+        margin-bottom: 85px;
+
+        .bonus__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 290px;
+        }
+
+        .item__title {
+            text-transform: uppercase;
+        }
+
+        .item__text {
+            text-align: center;
+        }
+    }
+
+    .bonus__text {
+        color: #ffffff;
+        margin-bottom: 50px;
+    }
+
+    .bonus__btn {
+        width: 292px;
+        height: 60px;
+        border-radius: 10px;
+        background-color: #1b539a;
+        color: white;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+}

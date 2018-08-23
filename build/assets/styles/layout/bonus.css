@@ -1,0 +1,40 @@
+.bonus {
+  background: url("../images/bonus-bg.png") center;
+  background-size: cover;
+  width: 100vw;
+  height: 790px; }
+  .bonus .bonus__container {
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0; }
+  .bonus .bonus__title {
+    font-size: 45px;
+    color: #ffffff; }
+  .bonus .bonus__list {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 85px; }
+    .bonus .bonus__list .bonus__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 290px; }
+    .bonus .bonus__list .item__title {
+      text-transform: uppercase; }
+    .bonus .bonus__list .item__text {
+      text-align: center; }
+  .bonus .bonus__text {
+    color: #ffffff;
+    margin-bottom: 50px; }
+  .bonus .bonus__btn {
+    width: 292px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #1b539a;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer; }
