@@ -1,0 +1,26 @@
+.who {
+  width: 100vw; }
+  .who .who__container {
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0; }
+  .who .who__title {
+    font-size: 45px;
+    color: #0b3c6d;
+    margin-bottom: 25px; }
+  .who .who__text {
+    max-width: 488px;
+    color: #0b3c6d;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px; }
+  .who .who__list {
+    display: flex;
+    justify-content: space-between;
+    color: #0b3c6d;
+    text-transform: uppercase;
+    font-weight: 600; }
+    .who .who__list .list__right {
+      width: 45%; }
+    .who .who__list .list__left {
+      width: 45%; }

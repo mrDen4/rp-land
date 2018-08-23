@@ -1,0 +1,39 @@
+.who {
+    width: 100vw;
+
+    .who__container {
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+    }
+
+    .who__title {
+        font-size: 45px;
+        color: #0b3c6d;
+        margin-bottom: 25px;
+    }
+
+    .who__text {
+        max-width: 488px;
+        color: #0b3c6d;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .who__list {
+        display: flex;
+        justify-content: space-between;
+        color: #0b3c6d;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        .list__right {
+            width: 45%;
+        }
+
+        .list__left {
+            width: 45%;
+        }
+    }
+}
