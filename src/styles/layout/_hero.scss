@@ -16,6 +16,10 @@
         max-width: 615px;
         text-align: center;
         margin: 0 0 40px 0;
+
+        @include phones() {
+            font-size: 35px;
+        }
     }
 
     .hero__list {
@@ -24,9 +28,19 @@
         color: white;
         margin-bottom: 70px;
 
+        @include phones() {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
         .hero__item {
             margin-right: 40px;
             text-transform: uppercase;
+
+            @include phones() {
+                margin-bottom: 20px;
+            }
 
             &:last-child {
                 margin-right: 0;
@@ -45,8 +59,12 @@
         font-size: 20px;
         transition: .3s;
 
+        @include phones() {
+            width: 100%;
+        }
+
         &:hover {
-            background: #d60306;
+            background: lighten(#1b539a, 5%);
         }
     }
 }

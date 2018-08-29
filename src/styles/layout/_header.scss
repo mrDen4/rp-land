@@ -11,6 +11,12 @@
         align-items: center;
         justify-content: space-between;
         z-index: 20;
+        position: relative;
+        flex-wrap: wrap;
+
+        @include phones() {
+            flex-direction: column;
+        }
     }
 
     .header__wrap {
@@ -25,9 +31,47 @@
         z-index: 10;
     }
 
+    .header__burger {
+        position: absolute;
+        display: none;
+        background: none;
+        border: none;
+
+        @include tablets() {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @include phones() {
+            left: 10px;
+            top: 15px;
+        }
+
+        .burger__line {
+            width: 40px;
+            height: 5px;
+            margin-bottom: 5px;
+            background: #000;
+            border-radius: 5px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
     .header__logo {
         width: 165px;
         z-index: 20;
+
+        @include tablets() {
+            margin-left: 60px;
+        }
+
+        @include phones() {
+            margin-left: 0;
+            margin-bottom: 20px;
+        }
 
         .logo__img {
             width: 100%;

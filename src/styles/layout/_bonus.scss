@@ -67,7 +67,7 @@
         transition: .3s;
 
         &:hover {
-            background: #d60306;
+            background: lighten(#1b539a, 5%);
         }
     }
 }

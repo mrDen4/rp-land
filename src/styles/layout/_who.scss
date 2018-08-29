@@ -40,6 +40,10 @@
             @include tablets() {
                 width: 80%;
             }
+
+            p:first-child {
+                margin-top: 0;
+            }
         }
 
         .list__left {

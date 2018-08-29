@@ -53,6 +53,10 @@
         background-color: #1e4982;
         padding: 50px;
 
+        @include phones() {
+            width: 100%;
+        }
+
         .form__text {
             color: #ffffff;
             margin-bottom: 35px;
@@ -79,7 +83,7 @@
             transition: .3s;
 
             &:hover {
-                background: #d60306;
+                background: lighten(#1b539a, 5%);
             }
         }
     }

@@ -12,6 +12,11 @@
 <body>
     <header class="header">
         <div class="container header__container">
+            <button class="header__burger">
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+                <div class="burger__line"></div>
+            </button>
             <div class="header__logo">
                 <img src="./assets/images/logo.png" alt="logo" class="logo__img">
             </div>
@@ -169,12 +174,34 @@
                 <li class="footer__item">
                     <a href="#" class="item__link">
                         <img src="./assets/images/vk.png" alt="#" class="item__logo">
-                        <p class="footer__text">Группа: <span class="text__bold">vk.com/reactivepromotion</span></p>
+                        <p class="footer__text">Группа:
+                            <span class="text__bold">vk.com/reactivepromotion</span>
+                        </p>
                     </a>
                 </li>
             </ul>
         </div>
     </footer>
+    <div class="menu">
+        <button class="menu__exit">&times;</button>
+        <ul class="menu__list">
+            <li class="menu__item">
+                <a href="#who" class="item__link">Кто мы</a>
+            </li>
+            <li class="menu__item">
+                <a href="#why" class="item__link">Преимущества</a>
+            </li>
+            <li class="menu__item">
+                <a href="#bonus" class="item__link">Бонусы</a>
+            </li>
+            <li class="menu__item">
+                <a href="#contacts" class="item__link">Контакты</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./assets/scripts/main.js"></script>
 </body>
 
 </html>

@@ -11,6 +11,10 @@
         font-size: 45px;
         color: #0b3c6d;
         margin-bottom: 80px;
+
+        @include phones() {
+            text-align: center;
+        }
     }
 
     .why__list {
