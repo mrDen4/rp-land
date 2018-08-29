@@ -12,22 +12,21 @@
 <body>
     <header class="header">
         <div class="container header__container">
-            <div class="header__wrap"></div>
             <div class="header__logo">
                 <img src="./assets/images/logo.png" alt="logo" class="logo__img">
             </div>
             <ul class="header__list">
                 <li class="header__item">
-                    <a href="#" class="item__link">Кто мы</a>
+                    <a href="#who" class="item__link">Кто мы</a>
                 </li>
                 <li class="header__item">
-                    <a href="#" class="item__link">Преимущества</a>
+                    <a href="#why" class="item__link">Преимущества</a>
                 </li>
                 <li class="header__item">
-                    <a href="#" class="item__link">Бонусы</a>
+                    <a href="#bonus" class="item__link">Бонусы</a>
                 </li>
                 <li class="header__item">
-                    <a href="#" class="item__link">Контакты</a>
+                    <a href="#contacts" class="item__link">Контакты</a>
                 </li>
             </ul>
             <div class="header__contacts">
@@ -35,36 +34,44 @@
                 <a href="mailto:info@reactive-promotion.ru" class="contacts__mail">info@reactive-promotion.ru</a>
             </div>
         </div>
+        <div class="header__wrap"></div>
     </header>
     <section class="section hero">
         <div class="container hero__container">
             <h1 class="hero__title">Студия честного продвижения</h1>
             <ul class="hero__list">
-                <li class="hero__item">Быстро</li>
-                <li class="hero__item">Понятно</li>
-                <li class="hero__item">Эффективно</li>
+                <li class="hero__item">&#10004; Быстро</li>
+                <li class="hero__item">&#10004; Понятно</li>
+                <li class="hero__item">&#10004; Эффективно</li>
             </ul>
             <button class="hero__btn">Записаться на консультацию</button>
         </div>
     </section>
-    <section class="section who">
+    <section class="section who" id="who">
         <div class="container who__container">
             <h1 class="who__title">Кто мы</h1>
             <p class="who__text">"Reactive Promotion" – это студия ЧЕСТНОГО продвижения компаний, сайтов, товаров, медийных лиц и т.д.</p>
             <div class="who__list">
                 <div class="list__left">
-                    <p>Cоздаем и дорабатываем сайты любой сложности</p>
-                    <p>Продвигаем сайты в поисковых системах Яндекс и Google</p>
-                    <p>Ведем и продвигаем в социальных сетях</p>
+                    <p>
+                        <span class="list__color">&#10004;</span> Cоздаем и дорабатываем сайты любой сложности</p>
+                    <p>
+                        <span class="list__color">&#10004;</span> Продвигаем сайты в поисковых системах Яндекс и Google</p>
+                    <p>
+                        <span class="list__color">&#10004;</span> Ведем и продвигаем в социальных сетях</p>
                 </div>
                 <div class="list__right">
-                    <p>Определяем цели вашей компании и помогаем достичь их</p>
-                    <p>Над вашей задачей будет работать от 3 до 10 экспертов единовременно (каждый в своей области)</p>
+                    <p>
+                        <span class="list__color">&#10004;</span> Определяем цели вашей компании и помогаем достичь их</p>
+                    <p>
+                        <span class="list__color">&#10004;</span> Над вашей задачей будет работать от 3 до 10 экспертов единовременно (каждый в своей
+                        области)
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section why">
+    <section class="section why" id="why">
         <div class="container why__container">
             <h1 class="why__title">Почему выбирают нас</h1>
             <ul class="why__list">
@@ -92,7 +99,7 @@
             </ul>
         </div>
     </section>
-    <section class="section bonus">
+    <section class="section bonus" id="bonus">
         <div class="container bonus__container">
             <h1 class="bonus__title">Бонусы</h1>
             <ul class="bonus__list">
@@ -125,7 +132,8 @@
     <section class="section callback">
         <div class="container callback__container">
             <div class="callback__content">
-                <h2 class="content__title"> <span class="title__red">Бесплатно</span> сделаем вам новый сайт, или доработаем старый</h2>
+                <h2 class="content__title">
+                    <span class="title__red">Бесплатно</span> сделаем вам новый сайт, или доработаем старый</h2>
                 <div class="content__timer">
                     <img src="./assets/images/timer.png" alt="timer" class="timer__img">
                 </div>
@@ -138,27 +146,31 @@
             </form>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <div class="container footer__container">
             <h1 class="footer__title">Контакты</h1>
             <ul class="footer__list">
                 <li class="footer__item">
-                    <img src="./assets/images/mail.png" alt="#" class="item__logo">
-                    <p class="footer__text">Почта:
-                        <a href="#" class="footer__link">info@reactive-promotion.ru</a>
-                    </p>
+                    <a href="#" class="item__link">
+                        <img src="./assets/images/mail.png" alt="#" class="item__logo">
+                        <p class="footer__text">Почта:
+                            <span class="text__bold">info@reactive-promotion.ru</span>
+                        </p>
+                    </a>
                 </li>
                 <li class="footer__item">
-                    <img src="./assets/images/phone.png" alt="#" class="item__logo">
-                    <p class="footer__text">Телефон:
-                        <a href="#" class="footer__link">+7-951-129-71-03</a>
-                    </p>
+                    <a href="#" class="item__link">
+                        <img src="./assets/images/phone.png" alt="#" class="item__logo">
+                        <p class="footer__text">Телефон:
+                            <span class="text__bold">+7-951-129-71-03</span>
+                        </p>
+                    </a>
                 </li>
                 <li class="footer__item">
-                    <img src="./assets/images/vk.png" alt="#" class="item__logo">
-                    <p class="footer__text">Группа:
-                        <a href="#" class="footer__link">vk.com/reactivepromotion</a>
-                    </p>
+                    <a href="#" class="item__link">
+                        <img src="./assets/images/vk.png" alt="#" class="item__logo">
+                        <p class="footer__text">Группа: <span class="text__bold">vk.com/reactivepromotion</span></p>
+                    </a>
                 </li>
             </ul>
         </div>

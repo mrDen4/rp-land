@@ -1,8 +1,8 @@
 .hero {
-    width: 100vw;
-    background: url('../images/hero-bg.png') center;
+    background: url('../images/hero-bg.jpg') center;
     background-size: cover;
-    height: 710px;
+    width: 100vw;
+    height: 790px;
 
     .hero__container {
         align-items: center;
@@ -12,7 +12,7 @@
 
     .hero__title {
         font-size: 70px;
-        color: white;
+        color: #ffffff;
         max-width: 615px;
         text-align: center;
         margin: 0 0 40px 0;
@@ -42,5 +42,11 @@
         color: white;
         border: none;
         cursor: pointer;
+        font-size: 20px;
+        transition: .3s;
+
+        &:hover {
+            background: #d60306;
+        }
     }
 }

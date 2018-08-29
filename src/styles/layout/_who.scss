@@ -28,12 +28,32 @@
         text-transform: uppercase;
         font-weight: 600;
 
+        @include tablets() {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
         .list__right {
-            width: 45%;
+            width: 50%;
+
+            @include tablets() {
+                width: 80%;
+            }
         }
 
         .list__left {
-            width: 45%;
+            width: 50%;
+            margin-right: 25px;
+
+            @include tablets() {
+                margin: 0;
+                width: 80%;
+            }
+        }
+
+        .list__color {
+            color: #db2325;
         }
     }
 }

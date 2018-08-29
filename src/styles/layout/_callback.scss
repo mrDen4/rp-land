@@ -5,18 +5,41 @@
         padding: 100px 0;
         align-items: center;
         justify-content: space-around;
+
+        @include tablets() {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     .callback__content {
         width: 45%;
+
+        @include tablets() {
+            margin-bottom: 40px;
+            width: 80%;
+        }
 
         .content__title {
             color: #1e4982;
             font-size: 35px;
             margin-bottom: 45px;
 
+            @include tablets() {
+                text-align: center;
+            }
+
             .title__red {
                 color: #ca2643;
+            }
+        }
+
+        .content__timer {
+            width: 100%;
+
+            .timer__img {
+                width: 100%;
             }
         }
     }
@@ -24,8 +47,8 @@
     .callback__form {
         display: flex;
         flex-direction: column;
-        width: 300px;
-        height: 300px;
+        width: 423px;
+        height: 405px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         background-color: #1e4982;
         padding: 50px;
@@ -53,6 +76,11 @@
             font-size: 20px;
             cursor: pointer;
             background-color: #1b539a;
+            transition: .3s;
+
+            &:hover {
+                background: #d60306;
+            }
         }
     }
 }
