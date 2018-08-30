@@ -64,6 +64,10 @@
         color: #ffffff;
         margin-bottom: 50px;
 
+        @include horizon() {
+            padding-right: 10px;
+        }
+
         .text__color {
             color: #d60306;
             margin-right: 5px;
