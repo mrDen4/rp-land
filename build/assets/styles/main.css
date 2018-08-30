@@ -230,6 +230,8 @@ ul {
         .who .who__list .list__left {
           margin: 0;
           width: 100%; } }
+      .who .who__list .list__left p:first-child {
+        margin-top: 0; }
     .who .who__list .list__color {
       color: #db2325;
       display: block;

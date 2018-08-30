@@ -66,6 +66,10 @@
                 margin: 0;
                 width: 100%;
             }
+
+            p:first-child {
+                margin-top: 0;
+            }
         }
 
         .list__color {
