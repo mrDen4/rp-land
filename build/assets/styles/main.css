@@ -60,14 +60,14 @@ ul {
     display: none;
     background: none;
     border: none; }
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 800px) {
       .header .header__burger {
         display: flex;
         flex-direction: column; } }
     @media screen and (max-width: 480px) {
       .header .header__burger {
         left: 10px;
-        top: 15px; } }
+        top: 35px; } }
     .header .header__burger .burger__line {
       width: 40px;
       height: 5px;
@@ -79,7 +79,7 @@ ul {
   .header .header__logo {
     width: 165px;
     z-index: 20; }
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 800px) {
       .header .header__logo {
         margin-left: 60px; } }
     @media screen and (max-width: 480px) {
@@ -93,7 +93,7 @@ ul {
     list-style: none;
     padding: 0;
     z-index: 20; }
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 800px) {
       .header .header__list {
         display: none; } }
     .header .header__list .header__item {
@@ -209,7 +209,7 @@ ul {
     color: #0b3c6d;
     text-transform: uppercase;
     font-weight: 600; }
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 800px) {
       .who .who__list {
         flex-direction: column;
         align-items: center;
@@ -218,7 +218,7 @@ ul {
       display: flex; }
     .who .who__list .list__right {
       width: 50%; }
-      @media screen and (max-width: 770px) {
+      @media screen and (max-width: 800px) {
         .who .who__list .list__right {
           width: 100%; } }
       .who .who__list .list__right p:first-child {
@@ -226,7 +226,7 @@ ul {
     .who .who__list .list__left {
       width: 50%;
       margin-right: 25px; }
-      @media screen and (max-width: 770px) {
+      @media screen and (max-width: 800px) {
         .who .who__list .list__left {
           margin: 0;
           width: 100%; } }
@@ -322,6 +322,7 @@ ul {
           width: 80%;
           margin-bottom: 20px; } }
     .bonus .bonus__list .item__title {
+      text-align: center;
       text-transform: uppercase; }
     .bonus .bonus__list .item__text {
       text-align: center; }
@@ -351,7 +352,7 @@ ul {
   padding: 100px 0;
   align-items: center;
   justify-content: space-around; }
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 800px) {
     .callback .callback__container {
       flex-direction: column;
       justify-content: center;
@@ -360,7 +361,7 @@ ul {
 
 .callback .callback__content {
   width: 45%; }
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 800px) {
     .callback .callback__content {
       margin-bottom: 40px;
       width: 80%; } }
@@ -368,7 +369,7 @@ ul {
     color: #1e4982;
     font-size: 35px;
     margin-bottom: 45px; }
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 800px) {
       .callback .callback__content .content__title {
         text-align: center; } }
     .callback .callback__content .content__title .title__red {
@@ -431,7 +432,7 @@ ul {
     justify-content: space-around;
     list-style: none;
     padding: 0; }
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 800px) {
       .footer .footer__list {
         flex-direction: column; } }
     .footer .footer__list .footer__item {
@@ -439,7 +440,7 @@ ul {
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      @media screen and (max-width: 770px) {
+      @media screen and (max-width: 800px) {
         .footer .footer__list .footer__item {
           margin-bottom: 40px; } }
       .footer .footer__list .footer__item .item__link {
@@ -552,7 +553,7 @@ ul {
     background-color: #ffffff;
     border: none;
     padding: 17px; }
-    @media screen and (max-width: 770px) {
+    @media screen and (max-width: 800px) {
       .modal__card .form__inp, .modal__card-bonus .form__inp {
         width: 80%; } }
     @media screen and (max-width: 480px) {
@@ -587,7 +588,7 @@ ul {
   z-index: 1000;
   opacity: .5;
   display: none; }
-  @media screen and (max-width: 770px) {
+  @media screen and (max-width: 800px) {
     .bg__modal {
       width: 100%; } }
   @media screen and (max-width: 480px) {
