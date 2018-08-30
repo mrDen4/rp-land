@@ -143,7 +143,7 @@ ul {
     max-width: 615px;
     text-align: center;
     margin: 0 0 40px 0; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 678px) {
       .hero .hero__title {
         font-size: 35px; } }
   .hero .hero__list {
