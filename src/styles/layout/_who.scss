@@ -41,6 +41,10 @@
             align-items: center;
             justify-content: center;
         }
+        
+        p {
+            display: flex;
+        }
 
         .list__right {
             width: 50%;
@@ -66,6 +70,8 @@
 
         .list__color {
             color: #db2325;
+            display: block;
+            margin-right: 10px;
         }
     }
 }
