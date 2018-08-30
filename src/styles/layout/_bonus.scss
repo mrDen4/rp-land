@@ -47,12 +47,21 @@
 
         .item__text {
             text-align: center;
+
+            .text__color {
+                color: #d60306;
+            }
         }
     }
 
     .bonus__text {
         color: #ffffff;
         margin-bottom: 50px;
+
+        .text__color {
+            color: #d60306;
+            margin-right: 5px;
+        }
     }
 
     .bonus__btn {

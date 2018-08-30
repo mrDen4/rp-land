@@ -301,9 +301,14 @@ ul {
       text-transform: uppercase; }
     .bonus .bonus__list .item__text {
       text-align: center; }
+      .bonus .bonus__list .item__text .text__color {
+        color: #d60306; }
   .bonus .bonus__text {
     color: #ffffff;
     margin-bottom: 50px; }
+    .bonus .bonus__text .text__color {
+      color: #d60306;
+      margin-right: 5px; }
   .bonus .bonus__btn {
     width: 292px;
     height: 60px;
