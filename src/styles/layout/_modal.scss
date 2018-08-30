@@ -21,7 +21,7 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        padding: 5px;
+        padding: 15px;
     }
 
     .modal__exit {
@@ -69,6 +69,14 @@
         background-color: #ffffff;
         border: none;
         padding: 17px;
+
+        @include tablets() {
+            width: 80%;
+        }
+
+        @include phones() {
+            width: 100%;
+        }
     }
 
     .form__btn {

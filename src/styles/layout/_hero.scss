@@ -2,12 +2,18 @@
     background: url('../images/hero-bg.jpg') center;
     background-size: cover;
     width: 100vw;
-    height: 790px;
+    max-height: 790px;
 
     .hero__container {
+        padding-top: 60px;
         align-items: center;
         height: 100%;
         justify-content: center;
+
+        @include horizon {
+            padding-top: 200px;
+            padding-bottom: 30px;
+        }
     }
 
     .hero__title {
@@ -32,6 +38,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin-bottom: 20px;
         }
 
         .hero__item {

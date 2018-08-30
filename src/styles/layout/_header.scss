@@ -3,10 +3,10 @@
     min-height: 95px;
     position: absolute;
     top: 0;
-    padding: 20px 0;
 
     .header__container {
         min-height: 100%;
+        padding: 20px 15px;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;

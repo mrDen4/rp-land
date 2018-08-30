@@ -4,7 +4,11 @@
     .who__container {
         align-items: center;
         justify-content: center;
-        padding: 100px 0;
+        padding: 100px 15px;
+
+        @include horizon {
+            padding: 20px 10px;
+        }
     }
 
     .who__title {
@@ -19,6 +23,10 @@
         font-size: 16px;
         text-align: center;
         margin-bottom: 80px;
+
+        @include horizon() {
+            margin-bottom: 30px;
+        }
     }
 
     .who__list {
@@ -38,7 +46,7 @@
             width: 50%;
 
             @include tablets() {
-                width: 80%;
+                width: 100%;
             }
 
             p:first-child {
@@ -52,7 +60,7 @@
 
             @include tablets() {
                 margin: 0;
-                width: 80%;
+                width: 100%;
             }
         }
 
