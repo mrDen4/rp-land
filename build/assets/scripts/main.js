@@ -4,7 +4,7 @@ $('.header__burger').on('click', function() {
 });
 
 $('.item__link').on('click', function() {
-    $('.menu').toggleClass('menu--active');
+    $('.menu').removeClass('menu--active');
 });
 
 $('.menu__exit').on('click', function() {
