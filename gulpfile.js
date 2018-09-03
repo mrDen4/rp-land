@@ -25,6 +25,10 @@ const paths = {
         src: 'src/js/**/*.js',
         dest: 'build/assets/scripts/'
     },
+    php: {
+        src: 'src/php/**/*.php',
+        dest: 'build/assets/php/'
+    },
     font: {
         src: 'src/font/**/*.*',
         dest: 'build/assets/font'
@@ -49,6 +53,11 @@ function scripts() {
         .pipe(gulp.dest(paths.scripts.dest));
 }
 
+function php() {
+    return gulp.src(paths.php.src)
+        .pipe(gulp.dest(paths.php.dest));
+}
+
 //font
 function font() {
     return gulp.src(paths.font.src)
@@ -66,6 +75,7 @@ function watch() {
     gulp.watch(paths.template.src, template);
     gulp.watch(paths.images.src, images);
     gulp.watch(paths.scripts.src, scripts);
+    gulp.watch(paths.php.src, php);
     gulp.watch(paths.font.src, font);
 }
 
@@ -88,9 +98,10 @@ exports.styles = styles;
 exports.clean = clean;
 exports.images = images;
 exports.font = font;
+exports.php = php;
 
 gulp.task('default', gulp.series(
     clean,
-    gulp.parallel(styles, template, images, scripts, font),
+    gulp.parallel(styles, template, images, scripts, font, php),
     gulp.parallel(watch, server)
 ));
