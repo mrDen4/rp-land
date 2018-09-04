@@ -395,6 +395,11 @@ ul {
   @media screen and (max-width: 500px) {
     .callback .callback__form {
       width: 100%; } }
+  .callback .callback__form .form__complete {
+    color: green;
+    display: none; }
+    .callback .callback__form .form__complete--active {
+      display: inherit; }
   .callback .callback__form .form__text {
     color: #ffffff;
     margin-bottom: 35px; }

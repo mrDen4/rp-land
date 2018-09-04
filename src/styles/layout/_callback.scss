@@ -58,6 +58,15 @@
             width: 100%;
         }
 
+        .form__complete {
+            color: green;
+            display: none;
+    
+            &--active {
+                display: inherit;
+            }
+        }
+
         .form__text {
             color: #ffffff;
             margin-bottom: 35px;
