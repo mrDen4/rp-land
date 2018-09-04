@@ -38,14 +38,24 @@ $(document).ready(function () {
     });
 
     //Отправка данных пользователя на mail
-    $("#callback-form").submit(function() {
+    $("#callback-form").submit(function () {
         $.ajax({
             type: "POST",
-            url: "../php/mail.php",
+            url: "assets/php/mail.php",
             data: $(this).serialize()
-        }).done(function() {
-            alert("DONE");
-			$("#callback-form").trigger("reset");
+        }).done(function () {
+            $('.form__complete').toggleClass('form__complete--active');
+        });
+        return false;
+    });
+
+    $("#popup-form").submit(function () {
+        $.ajax({
+            type: "POST",
+            url: "assets/php/mail.php",
+            data: $(this).serialize()
+        }).done(function () {
+            $('.form__complete').toggleClass('form__complete--active');            
         });
         return false;
     });

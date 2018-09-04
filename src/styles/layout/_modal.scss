@@ -12,7 +12,7 @@
     background-color: #ededed;
     border-radius: 4px;
     width: 395px;
-    height: 410px;
+    min-height: 410px;
     z-index: 1099;
 
     @include horizon() {
@@ -51,6 +51,15 @@
 
         @include phones() {
             margin-bottom: 30px;
+        }
+    }
+
+    .form__complete {
+        color: green;
+        display: none;
+
+        &--active {
+            display: inherit;
         }
     }
 

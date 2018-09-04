@@ -513,7 +513,7 @@ ul {
   background-color: #ededed;
   border-radius: 4px;
   width: 395px;
-  height: 410px;
+  min-height: 410px;
   z-index: 1099; }
   @media screen and (max-width: 678px) {
     .modal__card, .modal__card-bonus {
@@ -545,6 +545,11 @@ ul {
     @media screen and (max-width: 500px) {
       .modal__card .modal__title, .modal__card-bonus .modal__title {
         margin-bottom: 30px; } }
+  .modal__card .form__complete, .modal__card-bonus .form__complete {
+    color: green;
+    display: none; }
+    .modal__card .form__complete--active, .modal__card-bonus .form__complete--active {
+      display: inherit; }
   .modal__card .modal__form, .modal__card-bonus .modal__form {
     display: flex;
     flex-direction: column;
